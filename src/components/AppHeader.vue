@@ -111,7 +111,7 @@ header {
                 }
                 &.active {
                     color: $dc-blue;
-                    border-bottom: 5px solid $dc-blue;
+                    box-shadow: inset 0 -5px 0 $dc-blue;
                 }
             }
         }

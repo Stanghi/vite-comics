@@ -124,7 +124,7 @@ footer {
         list-style: none;
 
         li {
-            padding-bottom: 5px;
+            padding-bottom: 2px;
 
             a {
                 font-size: 0.75rem;
