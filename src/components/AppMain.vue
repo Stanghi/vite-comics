@@ -17,7 +17,7 @@ export default {
 
 main {
     padding: 60px;
-    color: $main-text;
+    color: $text-white;
     background-color: $dark;
 
     p {

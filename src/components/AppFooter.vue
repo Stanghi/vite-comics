@@ -117,7 +117,7 @@ footer {
     h4 {
         margin-bottom: 15px;
         text-transform: uppercase;
-        color: $footer-text;
+        color: $text-white;
     }
 
     ul {
@@ -132,7 +132,7 @@ footer {
                 color: $text-links-footer;
                 cursor: pointer;
                 &:hover {
-                    color: $footer-text;
+                    color: $text-white;
                 }
             }
         }
@@ -158,7 +158,7 @@ footer {
         .btn-sign-up {
             padding: 10px;
             border: 2px solid $dc-blue;
-            color: $footer-text;
+            color: $text-white;
             cursor: pointer;
 
             p {
