@@ -5,7 +5,23 @@ export default {
 </script>
 
 <template>
-    <main>M</main>
+    <main>
+        <div class="container">
+            <p>Content goes here</p>
+        </div>
+    </main>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+@use '../style/partial/variables' as *;
+
+main {
+    padding: 60px;
+    color: $main-text;
+    background-color: $dark;
+
+    p {
+        font-size: 1.8rem;
+    }
+}
+</style>

@@ -105,7 +105,7 @@ header {
                 font-weight: bolder;
                 text-transform: uppercase;
                 text-decoration: none;
-                color: $text-header;
+                color: $dark;
                 &:hover {
                     color: $dc-blue;
                 }
