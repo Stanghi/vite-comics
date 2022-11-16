@@ -1,13 +1,24 @@
 <script>
+import CardSeries from './CardSeries.vue';
+import seriesDataBase from '../data/dc-comics.js';
+
 export default {
     name: 'AppMain',
+    components: {
+        CardSeries,
+    },
+    data() {
+        return {
+            seriesDataBase,
+        };
+    },
 };
 </script>
 
 <template>
     <main>
         <div class="container">
-            <p>Content goes here</p>
+            <CardSeries v-for="(serie, index) in seriesDataBase" :key="index" :serie="serie" />
         </div>
     </main>
 </template>
@@ -16,12 +27,11 @@ export default {
 @use '../style/partial/variables' as *;
 
 main {
-    padding: 60px;
-    color: $text-white;
     background-color: $dark;
 
-    p {
-        font-size: 1.8rem;
+    .container {
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 </style>
