@@ -22,7 +22,8 @@ export default {
 .card {
     overflow-wrap: break-word;
     inline-size: 209px;
-    padding: 12px;
+    padding: 0 12px 50px 0;
+    cursor: pointer;
 
     .thumb {
         overflow: hidden;
